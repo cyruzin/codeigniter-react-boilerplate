@@ -5,13 +5,15 @@ import Contributing from './components/Contributing'
 
 const elements = document.getElementsByClassName('App');
 
-for (let i = 0; i < elements.length; i++) {
+for (let i = 0; i <= elements.length; i++) {
     switch (elements[i].id) {
         case 'HelloWorld':
-            ReactDOM.render((<HelloWorld />), document.getElementById('HelloWorld'));
+            ReactDOM.render((<HelloWorld />),
+                document.getElementById('HelloWorld'));
             break
         case 'Contributing':
-            ReactDOM.render((<Contributing />), document.getElementById('Contributing'));
+            ReactDOM.render((<Contributing />),
+                document.getElementById('Contributing'));
             break
         default:
             break

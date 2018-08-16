@@ -5,7 +5,7 @@ const Contributing = () => (
     <div>
         <h1>Contributing</h1>
         <p>Help me improve this project ;)</p>
-        <a href={BASE_URL}>Home</a>
+        <a href={BASE_URL}>Go Home</a>
     </div>
 )
 
