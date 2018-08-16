@@ -31,8 +31,8 @@ class Welcome extends CI_Controller {
 	{
 		// loading the script/css only in this page
 		// for more information about this function, check the util_helper;
-		load_js(["app"]);
-		
+		load_js(["app"], "js_assets");
+
 		$this->load->view('welcome_message');
 	}
 
@@ -40,7 +40,7 @@ class Welcome extends CI_Controller {
 	{
 		// loading the script/css only in this page
 		// for more information about this function, check the util_helper	
-		load_js(["app"]);
+		load_js(["app"], "js_assets");
 
 		$this->load->view('contributing');
 	}
