@@ -29,18 +29,18 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		// loading the script only in this page
-		// for more information about this function, check the util_helper
-		load_asset("app", "js");
-
+		// loading the script/css only in this page
+		// for more information about this function, check the util_helper;
+		load_js(["app"]);
+		
 		$this->load->view('welcome_message');
 	}
 
 	public function contributing()
 	{
-		// loading the script only in this page
-		// for more information about this function, check the util_helper
-		load_asset("app", "js");
+		// loading the script/css only in this page
+		// for more information about this function, check the util_helper	
+		load_js(["app"]);
 
 		$this->load->view('contributing');
 	}

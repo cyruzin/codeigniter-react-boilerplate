@@ -12,9 +12,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div id="Contributing" class="App"></div>
 
-<?php if(!empty($this->session->flashdata('js_asset'))): ?>
-    <?php echo $this->session->flashdata('js_asset'); ?>
-<?php endif; ?>
+<?php print_assets($this->session->flashdata('js_assets')) ?>
 
 </body>
 </html>
