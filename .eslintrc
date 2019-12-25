@@ -6,10 +6,21 @@
     "parser": "babel-eslint",
     "plugins": [
         "react"
-      ],
+    ],
     "rules": {
-        "max-len": [1, 120, 2, {"ignoreComments": true}],
-        "react/prop-types": 0
+        "max-len": [
+            1,
+            120,
+            2,
+            {
+                "ignoreComments": true
+            }
+        ],
+        "react/prop-types": 0,
+        "no-console": "off"
     },
-    "extends": ["eslint:recommended", "plugin:react/recommended"]
+    "extends": [
+        "eslint:recommended",
+        "plugin:react/recommended"
+    ]
 }

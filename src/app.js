@@ -1,21 +1,22 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+
 import HelloWorld from './components/HelloWorld'
 import Contributing from './components/Contributing'
 
-const elements = document.getElementsByClassName('App');
+const elements = document.getElementsByClassName('App')
+
+const components = {
+    HelloWorld: <HelloWorld />,
+    Contributing: <Contributing />
+}
 
 for (let i = 0; i <= elements.length; i++) {
-    switch (elements[i].id) {
-        case 'HelloWorld':
-            ReactDOM.render((<HelloWorld />),
-                document.getElementById('HelloWorld'));
-            break
-        case 'Contributing':
-            ReactDOM.render((<Contributing />),
-                document.getElementById('Contributing'));
-            break
-        default:
-            break
+    if (elements[i]) {
+        const currentComponent = Object.keys(components)
+            .find(component => component === elements[i].id)
+
+        ReactDOM.render((components[currentComponent]),
+            document.getElementById(currentComponent))
     }
 }
