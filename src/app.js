@@ -14,7 +14,7 @@ const components = {
 for (let i = 0; i <= elements.length; i++) {
     if (elements[i]) {
         const currentComponent = Object.keys(components)
-            .find(component => component === elements[i].id)
+            .find(component => component === elements[i].id) || null
 
         ReactDOM.render((components[currentComponent]),
             document.getElementById(currentComponent))
