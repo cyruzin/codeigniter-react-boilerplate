@@ -1,6 +1,6 @@
 {
   "name": "codeigniter-react-boilerplate",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A CodeIgniter boilerplate with React.",
   "main": "src/app.js",
   "directories": {
@@ -30,21 +30,21 @@
   "homepage": "https://github.com/cyruzin/codeigniter-react-boilerplate#readme",
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-eslint": "^8.2.6",
-    "babel-loader": "^7.1.5",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
     "babel-plugin-transform-class-properties": "^6.24.1",
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
-    "css-loader": "^1.0.0",
-    "eslint": "^5.3.0",
-    "eslint-loader": "^2.1.0",
-    "eslint-plugin-react": "^7.11.1",
-    "mini-css-extract-plugin": "^0.4.1",
-    "optimize-css-assets-webpack-plugin": "^5.0.0",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "style-loader": "^0.22.1",
-    "webpack": "^4.16.5",
-    "webpack-cli": "^3.1.0"
+    "css-loader": "^3.4.0",
+    "eslint": "^6.8.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-react": "^7.17.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "style-loader": "^1.1.2",
+    "webpack": "^4.41.4",
+    "webpack-cli": "^3.3.10"
   }
 }
