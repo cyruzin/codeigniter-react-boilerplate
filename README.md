@@ -14,7 +14,7 @@ After that, configure the project to use with XAMPP or Docker.
 
 ## Docker
 
-Make sure that you have Docker installed in your machine and then run:
+Make sure that you have Docker and Docker Compose installed in your machine and then run:
 
 ```sh
 docker-compose up
