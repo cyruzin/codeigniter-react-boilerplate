@@ -20,6 +20,8 @@ Make sure that you have Docker and Docker Compose installed in your machine and 
 docker-compose up
 ```
 
+After that, check the project up and running: http://localhost:8080
+
 If you want to change Docker port, go to the "src/util" folder and modify the constants.js file.
 
 ## Usage
@@ -44,9 +46,11 @@ If is not clear yet, check the "util_helper" for more info.
 
 ## Requirements
 
-- XAMPP Stack with PHP version 5.6 or newer
-- Node.Js version 8.11.4 or newer
-- Yarn version 1.9.4 (optional) or newer
+The project have been tested using the versions below:
+
+- XAMPP Stack / Docker with PHP version 7.4.7
+- Node version 12.17
+- Yarn version 1.22.4
 
 ## Contributing
 
