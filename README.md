@@ -54,7 +54,7 @@ The project have been tested using the versions below:
 
 ## Contributing
 
-Clone the repository, modify it and make a pull request.
+Fork the repository, modify it and make a pull request.
 
 ## License
 
