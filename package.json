@@ -1,60 +1,58 @@
 {
-	"name": "codeigniter-react-boilerplate",
-	"version": "1.2.0",
-	"description": "A CodeIgniter boilerplate with React.",
-	"main": "src/app.js",
-	"directories": {
-		"test": "tests"
-	},
-	"scripts": {
-		"dev": "webpack --mode development --watch --progress --config config/webpack.dev.js",
-		"build": "webpack --mode production --config config/webpack.prod.js",
-		"format": "prettier --write \"**/*.+(js|jsx|json|css|md)\"",
-		"lint": "eslint 'src/**/**.{js,jsx}'",
-		"lint:fix": "eslint 'src/**/**.{js,jsx}' --fix"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/cyruzin/codeigniter-react-boilerplate.git"
-	},
-	"keywords": [
-		"boilerplate",
-		"codeigniter",
-		"php",
-		"js",
-		"react",
-		"webpack",
-		"eslint",
-		"prettier"
-	],
-	"author": "Cyro Dubeux",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/cyruzin/codeigniter-react-boilerplate/issues"
-	},
-	"homepage": "https://github.com/cyruzin/codeigniter-react-boilerplate#readme",
-	"devDependencies": {
-		"@babel/core": "^7.12.3",
-		"@babel/preset-env": "^7.12.1",
-		"@babel/preset-react": "^7.12.5",
-		"babel-eslint": "^10.1.0",
-		"babel-loader": "^8.1.0",
-		"babel-plugin-transform-class-properties": "^6.24.1",
-		"css-loader": "^5.0.1",
-		"css-minimizer-webpack-plugin": "^1.1.5",
-		"eslint": "^7.12.1",
-		"eslint-config-prettier": "^6.15.0",
-		"eslint-loader": "^4.0.2",
-		"eslint-plugin-prettier": "^3.1.4",
-		"eslint-plugin-react": "^7.21.5",
-		"mini-css-extract-plugin": "^1.2.1",
-		"prettier": "^2.1.2",
-		"style-loader": "^2.0.0",
-		"webpack": "^5.4.0",
-		"webpack-cli": "^4.2.0"
-	},
-	"dependencies": {
-		"react": "^17.0.1",
-		"react-dom": "^17.0.1"
-	}
+  "name": "codeigniter-react-boilerplate",
+  "version": "1.2.0",
+  "description": "A CodeIgniter boilerplate with React.",
+  "main": "src/app.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "dev": "webpack --mode development --watch --progress --config config/webpack.dev.js",
+    "build": "webpack --mode production --config config/webpack.prod.js",
+    "format": "prettier --write \"src/**/*.+(js|jsx|json|css)\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyruzin/codeigniter-react-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "codeigniter",
+    "php",
+    "js",
+    "react",
+    "webpack",
+    "eslint",
+    "prettier"
+  ],
+  "author": "Cyro Dubeux",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cyruzin/codeigniter-react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/cyruzin/codeigniter-react-boilerplate#readme",
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "css-loader": "^5.0.1",
+    "css-minimizer-webpack-plugin": "^1.1.5",
+    "eslint": "^7.12.1",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-loader": "^4.0.2",
+    "eslint-plugin-prettier": "^3.1.4",
+    "eslint-plugin-react": "^7.21.5",
+    "mini-css-extract-plugin": "^1.2.1",
+    "prettier": "^2.1.2",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.4.0",
+    "webpack-cli": "^4.2.0"
+  },
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
 }
