@@ -4,9 +4,9 @@
 
 ## Installation
 
- [Click here to watch the tutorial](https://www.youtube.com/watch?v=7IjwzSfqtA4)
+[Click here to watch the tutorial](https://www.youtube.com/watch?v=7IjwzSfqtA4)
 
-Clone the repository and run the command below to install node dependencies.  
+Clone the repository and run the command below to install node dependencies.
 
 ```sh
 npm install or yarn install
@@ -33,7 +33,7 @@ yarn or npm run [command]
 ```
 
 | Command          | Description                                       |
-|------------------|---------------------------------------------------|
+| ---------------- | ------------------------------------------------- |
 | `yarn install`   | Install the dependencies                          |
 | `yarn run dev`   | Start development mode and watch for file changes |
 | `yarn run build` | Generates the minified file ready for production  |
@@ -50,9 +50,10 @@ If is not clear yet, check the "util_helper" for more info.
 
 The project have been tested using the versions below:
 
-- XAMPP Stack / Docker with PHP version 7.4.7
-- Node version 12.17
-- Yarn version 1.22.4
+- Nginx latest version
+- PHP FPM version 7.4.12
+- Node version 12.19
+- Yarn version 1.22.5
 
 ## Contributing
 

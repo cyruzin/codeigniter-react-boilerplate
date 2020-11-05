@@ -1,26 +1,31 @@
 {
-    "env": {
-        "browser": true,
-        "node": true
-    },
-    "parser": "babel-eslint",
-    "plugins": [
-        "react"
+  "env": {
+    "browser": true,
+    "jest": true,
+    "es6": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "plugins": ["prettier", "react"],
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
     ],
-    "rules": {
-        "max-len": [
-            1,
-            120,
-            2,
-            {
-                "ignoreComments": true
-            }
-        ],
-        "react/prop-types": 0,
-        "no-console": "off"
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ]
+    "no-unused-vars": "warn",
+    "no-console": "off"
+  },
+  "extends": ["plugin:prettier/recommended", "plugin:react/recommended"],
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "fragment": "Fragment",
+      "version": "detect"
+    }
+  }
 }

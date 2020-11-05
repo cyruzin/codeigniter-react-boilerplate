@@ -1,17 +1,17 @@
-version: "3.7"
+version: '3.7'
 
-services: 
-    web:
-        container_name: codeigniter-react-nginx
-        image: nginx:latest
-        ports:
-            - "8080:80"
-        volumes:
-            - ./:/app
-            - ./default.conf:/etc/nginx/conf.d/default.conf
+services:
+  web:
+    container_name: codeigniter-react-nginx
+    image: nginx:latest
+    ports:
+      - '8080:80'
+    volumes:
+      - ./:/app
+      - ./default.conf:/etc/nginx/conf.d/default.conf
 
-    php:
-        container_name: codeigniter-react-php
-        image: php:7.4.7-fpm-alpine3.12
-        volumes: 
-            - ./:/app
+  php:
+    container_name: codeigniter-react-php
+    image: php:7.4.12-fpm-alpine3.12
+    volumes:
+      - ./:/app
