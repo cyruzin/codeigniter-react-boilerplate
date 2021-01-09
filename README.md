@@ -51,8 +51,8 @@ If is not clear yet, check the "util_helper" for more info.
 The project have been tested using the versions below:
 
 - Nginx latest version
-- PHP FPM version 7.4.12
-- Node version 12.19
+- PHP FPM version 7.4.14
+- Node version 14.15.4
 - Yarn version 1.22.5
 
 ## Contributing
