@@ -12,6 +12,6 @@ services:
 
   php:
     container_name: codeigniter-react-php
-    image: php:7.4.20-fpm-alpine3.13
+    image: php:7.4.27-fpm-alpine3.15
     volumes:
       - ./:/app
