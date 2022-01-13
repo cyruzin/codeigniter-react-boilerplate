@@ -6,6 +6,8 @@
 
 [Click here to watch the tutorial](https://www.youtube.com/watch?v=7IjwzSfqtA4)
 
+Or follow the steps below:
+
 Clone the repository and run the command below to install node dependencies.
 
 ```sh
