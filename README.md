@@ -52,10 +52,11 @@ If is not clear yet, check the "util_helper" for more info.
 
 The project have been tested using the versions below:
 
+- CodeIgniter v3.1.13
+- PHP FPM version v7.4.27
 - Nginx latest version
-- PHP FPM version 7.4.27
-- Node version 16.13.2
-- Yarn version 1.22.17
+- Node version v16.13.2
+- Yarn version v1.22.17
 
 ## Contributing
 
